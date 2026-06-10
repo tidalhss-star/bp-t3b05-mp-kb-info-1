@@ -3,86 +3,266 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>노래방에서 노래 잘 부르는 마이크 꿀세팅법과 목 아끼는 실전 꿀팁 | 마포 노래방 백과사전</title>
-  <meta name="description" content="오늘 형이 노래방 가서 목 터지게 지르는데 목 안 쉬고 가수로 빙의할 수 있는 실전 꿀팁 대공개함.
-      첫째, 마이크에 달린 일회용 위생 커버는 씌우되, 마이크 하단을 잡지 말고 가운데를 잡아라. 안테나 부분을 잡으면 소리 수신율 개떨어짐.
-      둘째, 룸...">
-  <link rel="canonical" href="https://t3b05-mp-kb-info-1.pages.dev/blog.html">
-  <meta name="bpaas-design-system" content="editorial-luxury">
-  <meta name="bpaas-design-theme" content="kr-editorial-luxury">
+  <title>블로그 – 마포 노래방 정보 홈 | 노래방 형님들</title>
+  <meta name="description" content="마포 노래방 진짜 가성비 좋은 곳 어디일까? 형이 직접 돌아다니며 찾은 마포 노래방 정보 꿀팁 대방출. 시설, 분위기, 가격까지 싹 알려준다. 010-6279-0862">
+  <meta name="keywords" content="마포 노래방 정보, 마포 노래방 추천, 마포 노래방 후기, 마포 노래방 가격, 마포 코인노래방, 마포 가성비 노래방, 홍대 노래방, 마포구 노래방">
+  <meta name="author" content="Bro">
+  <link rel="canonical" href="https://t3b05-mp-kb-info-1.vercel.app/blog/">
+  <meta name="bpaas-design-system" content="brutalist-avantgarde">
+  <meta name="bpaas-design-theme" content="kr-acid-yellow">
+
+  <!-- OG 메타 -->
+  <meta property="og:title" content="블로그 – 마포 노래방 정보 홈 | 노래방 형님들">
+  <meta property="og:description" content="야, 마포에서 진짜 노래방 찾는 중이야? 형님들이 직접 가보고 추천하는 마포 노래방 정보 다 모아놨다. 가성비, 시설, 분위기까지 싹 다 알려줄게.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://t3b05-mp-kb-info-1.vercel.app/blog/">
+  <meta property="og:image" content="https://t3b05-mp-kb-info-1.vercel.app/assets/og-blog.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    
-      :root {
-        --bg: #faf9f6;
-        --fg: #1c1c1e;
-        --accent: #8a7355;
-        --muted: #6e6e73;
-        --border: #e5e5e0;
+    /* ===== CSS 리셋 & 기본 ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html {
+      font-size: 16px;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background: #0a0a0a;
+      color: #e0e0e0;
+      line-height: 1.5;
+    }
+
+    /* ===== DENSE SPACE ===== */
+    :root {
+      --accent: #FFE600;
+      --accent-dark: #CCB800;
+      --bg-dark: #111;
+      --bg-card: #1a1a1a;
+      --border-thick: 6px;
+      --border-med: 3px;
+      --font-title: 'Helvetica Neue', sans-serif;
+      --space-unit: 1.2rem;
+    }
+
+    /* ===== GLOBAL ===== */
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: 0.2s;
+    }
+    a:hover {
+      color: #fff;
+      background: var(--accent);
+      color: #000;
+      padding: 0 0.2em;
+    }
+    h1, h2, h3, h4 {
+      font-family: var(--font-title);
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: -0.03em;
+    }
+    h1 {
+      font-size: 3.2rem;
+      line-height: 1;
+      color: var(--accent);
+      border-left: var(--border-thick) solid var(--accent);
+      padding-left: 0.6rem;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 2rem;
+      color: #fff;
+      border-bottom: var(--border-med) solid var(--accent);
+      padding-bottom: 0.3rem;
+      margin: 2rem 0 1rem;
+    }
+    h3 {
+      font-size: 1.4rem;
+      color: var(--accent);
+      margin: 1.5rem 0 0.5rem;
+    }
+    p {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+    img, svg {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* ===== LAYOUT ===== */
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    .full-bleed {
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+      background: var(--bg-dark);
+      padding: 2rem 1.5rem;
+    }
+    .full-bleed .inner {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .card {
+      background: var(--bg-card);
+      border: var(--border-med) solid var(--accent);
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      box-shadow: 8px 8px 0 rgba(255, 230, 0, 0.15);
+      transition: 0.2s;
+    }
+    .card:hover {
+      transform: translate(-2px, -2px);
+      box-shadow: 12px 12px 0 rgba(255, 230, 0, 0.3);
+    }
+
+    /* 네비게이션 */
+    nav.nav-present {
+      background: #000;
+      border-bottom: var(--border-med) solid var(--accent);
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    nav.nav-present .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    nav .logo {
+      font-weight: 900;
+      font-size: 1.8rem;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: -0.05em;
+    }
+    nav .logo a {
+      color: var(--accent);
+    }
+    nav .logo a:hover {
+      background: none;
+      color: var(--accent);
+      padding: 0;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.8rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 0.9rem;
+    }
+    nav ul li a {
+      color: #ccc;
+      padding: 0.3rem 0;
+      border-bottom: 2px solid transparent;
+    }
+    nav ul li a:hover {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+      background: none;
+      padding: 0.3rem 0;
+    }
+    .hamburger-menu {
+      display: none;
+      cursor: pointer;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .hamburger-menu span {
+      display: block;
+      width: 30px;
+      height: 4px;
+      background: var(--accent);
+      border-radius: 2px;
+    }
+    @media (max-width: 768px) {
+      nav ul {
+        display: none;
+        flex-direction: column;
+        background: #000;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem;
+        border-bottom: var(--border-med) solid var(--accent);
       }
-      body { background: var(--bg); color: var(--fg); font-family: 'Noto Serif KR', serif; line-height: 1.8; }
-      header { border-bottom: 1px solid var(--border); padding: 20px 0; }
-      .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
-      .hero { padding: 80px 0; text-align: left; border-bottom: 1px solid var(--border); }
-      .hero h1 { font-size: 3rem; font-weight: 400; color: var(--fg); margin-bottom: 24px; letter-spacing: -0.03em; }
-      .btn { display: inline-block; padding: 12px 36px; border: 1px solid var(--accent); color: var(--accent); text-decoration: none; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; transition: all 0.3s; }
-      .btn:hover { background: var(--accent); color: #fff; }
-      .content-section { padding: 60px 0; }
-      .card { border-bottom: 1px solid var(--border); padding: 32px 0; }
-      .card h3 { font-size: 1.4rem; font-weight: 500; margin-bottom: 12px; }
-      .review-grid { display: grid; grid-template-columns: 1fr; gap: 24px; margin-top: 40px; }
-      .review-card { border: 1px solid var(--border); padding: 24px; background: #fff; }
-    
-    header .container { display: flex; justify-content: space-between; align-items: center; }
-    .logo { font-size: 1.5rem; font-weight: 900; text-decoration: none; color: var(--fg); letter-spacing: -0.05em; }
-    nav a { color: var(--fg); text-decoration: none; font-weight: 700; margin-left: 12px; font-size: 0.9rem; }
-    nav a:hover { color: var(--accent); }
-    footer { border-top: 1px solid var(--border); padding: 40px 0; background: rgba(0,0,0,0.01); color: var(--muted); font-size: 0.85rem; }
-    footer .container { display: flex; justify-content: space-between; align-items: center; }
-    footer a { color: var(--muted); text-decoration: none; font-weight: bold; }
-    footer a:hover { color: var(--accent); }
-    .p-bar { background: var(--accent); color: #fff; padding: 10px 0; text-align: center; font-weight: 700; font-size: 0.95rem; }
-    .p-bar a { color: #fff; text-decoration: underline; }
+      nav ul.open {
+        display: flex;
+      }
+      .hamburger-menu {
+        display: flex;
+      }
+      .tel-link-mobile {
+        display: inline-block;
+        background: var(--accent);
+        color: #000;
+        font-weight: bold;
+        padding: 0.5rem 1rem;
+        border-radius: 0;
+        margin-top: 1rem;
+        text-align: center;
+      }
+    }
+    .tel-link {
+      font-weight: bold;
+      font-size: 1.1rem;
+      background: var(--accent);
+      color: #000;
+      padding: 0.3rem 0.8rem;
+      border: none;
+      cursor: pointer;
+    }
+    .tel-link:hover {
+      background: #fff;
+      color: #000;
+    }
+
+    /* 푸터 */
+    footer {
+      border-top: var(--border-med) solid var(--accent);
+      padding: 2rem 0;
+      margin-top: 3rem;
+      text-align: center;
+    }
+    footer p {
+      margin-bottom: 0.5rem;
+    }
+    footer .tel-big {
+      font-size: 2rem;
+      font-weight: 900;
+      color: var(--accent);
+      display: inline-block;
+      border: var(--border-med) solid var(--accent);
+      padding: 0.3rem 1.5rem;
+      margin: 1rem 0;
+    }
   </style>
 </head>
 <body>
-  <div class="p-bar">🚨 형님들 눈탱이 없는 리얼 정찰제 문의: <a href="tel:010-6279-0862">📞 010-6279-0862</a> (24시간 실시간 대기)</div>
-  <header>
-    <div class="container">
-      <a href="index.html" class="logo">마포.노래방</a>
-      <nav><a href="index.html">홈</a> | <a href="about.html">정보</a> | <a href="blog.html">블로그</a></nav>
+
+<!-- 네비게이션 -->
+<nav class="nav-present">
+  <div class="container">
+    <div class="logo">
+      <a href="/">노래방 형님들</a>
     </div>
-  </header>
-  <main>
-    <section class="hero">
-      <div class="container">
-        <h1>노래방에서 노래 잘 부르는 마이크 꿀세팅법과 목 아끼는 실전 꿀팁</h1>
-        <p style="font-size:1.2rem; opacity:0.9; margin-top:15px;">작성자: 마포 마당발 실장 형님 | 카테고리: 정보/꿀팁</p>
-      </div>
-    </section>
-    
-    <section class="content-section">
-      <div class="container">
-        <div class="card" style="border:none;">
-          <div style="font-size:1.15rem; line-height:2.0; color:var(--fg);">
-            <p style="margin-bottom:20px;">오늘 형이 노래방 가서 목 터지게 지르는데 목 안 쉬고 가수로 빙의할 수 있는 실전 꿀팁 대공개함.</p><p style="margin-bottom:20px;">첫째, 마이크에 달린 일회용 위생 커버는 씌우되, 마이크 하단을 잡지 말고 가운데를 잡아라. 안테나 부분을 잡으면 소리 수신율 개떨어짐.</p><p style="margin-bottom:20px;">둘째, 룸 예약 시 예약 번호(010-6279-0862)로 미리 "에코랑 마이크 볼륨 빵빵하게 믹싱 튜닝 잘 된 방"으로 달라고 주문해라. 실장님이 단골 우대로 기계 세팅 만져놓음.</p><p style="margin-bottom:20px;">셋째, 노래 부를 때 찬물보다는 미지근한 음료나 꿀물을 수시로 마셔 목의 건조함을 막아라.</p><p style="margin-bottom:20px;">형이 추천하는 고품격 사운드 노래방에서 인생곡 한 곡 멋지게 지르고 오길 바란다.</p>
-          </div>
-          <div style="margin-top:40px; padding:20px; border:1px dashed var(--accent); background:rgba(255,85,0,0.02); text-align:center;">
-            <p style="font-weight:bold; margin-bottom:15px;">이 글이 도움이 되셨다면, 형이 확실히 엄선한 로컬 매장 실시간 부킹 라인으로 예약해 보세요!</p>
-            <a href="index.html" style="color:var(--accent); font-weight:bold; text-decoration:underline;">[홈페이지 바로가기]</a> | 
-            <a href="about.html" style="color:var(--accent); font-weight:bold; text-decoration:underline;">[오시는 길 &amp; 요금표 확인]</a>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div class="container">
-      <div>&copy; 2026 마포 노래방 스페셜 가이드. All Rights Reserved.</div>
-      <div>
-        <a href="index.html">홈</a> | <a href="about.html">정보</a> | <a href="blog.html">블로그</a>
-      </div>
-    </div>
-  </footer>
+    <div class="hamburger-menu" onclick="document.querySelector('nav ul').classList.toggle('open')">
 </body>
 </html>
